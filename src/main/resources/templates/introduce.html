@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu</title>
+    <!-- Font roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Icon fontanwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Reset css & grid sytem -->
+    <link rel="stylesheet" href="./assets/css/library.css">
+    <!-- Owl Slider css -->
+    <link rel="stylesheet" href="assets/owlCarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlCarousel/assets/owl.theme.default.min.css">
+    <!-- Layout -->
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <!-- index -->
+    <link rel="stylesheet" href="./assets/css/introd.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/new.css">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl caroucel Js-->
+    <script src="assets/owlCarousel/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <div class="header scrolling" id="myHeader">
+        <div class="grid wide">
+            <div class="header__top">
+                <div class="navbar-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="index.html" class="header__logo">
+                    <img src="./assets/logo.png" alt="">
+                </a>
+                <div class="header__search">
+                    <div class="header__search-wrap">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm">
+                        <a class="header__search-icon" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="header__account">
+                    <a href="#my-Login" class="header__account-login">Đăng Nhập</a>
+                    <a href="#my-Register" class="header__account-register">Đăng Kí</a>
+                </div>
+                <!-- Cart -->
+                <div class="header__cart have" href="#">
+                    <i class="fas fa-shopping-basket"></i>
+                    <div class="header__cart-amount">
+                        3
+                    </div>
+                    <div class="header__cart-wrap">
+                        <ul class="order__list">
+                            <li class="item-order">
+                                <div class="order-wrap">
+                                    <a href="product.html" class="order-img">
+                                        <img src="./assets/img/product/product1.jpg" alt="">
+                                    </a>
+                                    <div class="order-main">
+                                        <a href="product.html" class="order-main-name">Cà phê latte matcha</a>
+                                        <div class="order-main-price">2 x 44,000 ₫</div>
+                                    </div>
+                                    <a href="product.html" class="order-close"><i class="far fa-times-circle"></i></a>
+                                </div>
+                            </li>
+                            <li class="item-order">
+                                <div class="order-wrap">
+                                    <a href="product.html" class="order-img">
+                                        <img src="./assets/img/product/product4.jpg" alt="">
+                                    </a>
+                                    <div class="order-main">
+                                        <a href="product.html" class="order-main-name">Cà phê cam</a>
+                                        <div class="order-main-price">2 x 43,000 ₫</div>
+                                    </div>
+                                    <a href="product.html" class="order-close"><i class="far fa-times-circle"></i></a>
+                                </div>
+                            </li>
+                            <li class="item-order">
+                                <div class="order-wrap">
+                                    <a href="product.html" class="order-img">
+                                        <img src="./assets/img/product/product5.jpg" alt="">
+                                    </a>
+                                    <div class="order-main">
+                                        <a href="product.html" class="order-main-name">Cà phê đen</a>
+                                        <div class="order-main-price">40,000 ₫</div>
+                                    </div>
+                                    <a href="product.html" class="order-close"><i class="far fa-times-circle"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="total-money">Tổng cộng: 204.000đ</div>
+                        <a href="cart.html" class="btn btn--default cart-btn">Xem giỏ hàng</a>
+                        <a href="pay.html" class="btn btn--default cart-btn orange">Thanh toán</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item nav__search">
+                    <div class="nav__search-wrap">
+                        <input class="nav__search-input" type="text" name="" id="" placeholder="Tìm sản phẩm...">
+                    </div>
+                    <div class="nav__search-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </li>
+                <li class="header__nav-item authen-form">
+                    <a href="#" class="header__nav-link">Tài Khoản</a>
+                    <ul class="sub-nav">
+                        <li class="sub-nav__item">
+                            <a href="#my-Login" class="sub-nav__link">Đăng Nhập</a>
+                        </li>
+                        <li class="sub-nav__item">
+                            <a href="#my-Register" class="sub-nav__link">Đăng Kí</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header__nav-item index">
+                    <a href="index.html" class="header__nav-link">Trang chủ</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="introduce.html" class="header__nav-link">Giới Thiệu</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="listProduct.html" class="header__nav-link">Sản Phẩm</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="news.html" class="header__nav-link">Tin Tức</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="contact.html" class="header__nav-link">Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="grid wide">
+            <div class="main__taskbar">
+                <div class="main__breadcrumb">
+                    <div class="breadcrumb__item">
+                        <a href="#" class="breadcrumb__link">Trang chủ</a>
+                    </div>
+                    <div class="breadcrumb__item">
+                        <a href="#" class="breadcrumb__link">Giới thiệu</a>
+                    </div>
+                </div>
+            </div>
+
+            </style>
+
+            <body>
+                <div>
+                    <h1
+                        style="padding-top: 8.5rem; padding: 1rem 10%; text-align: center;font-size: 35px;color: rgb(136, 90, 48); margin-bottom: 36px;">
+                        Welcom to FRESH COFFEE</h1>
+                    <div
+                        style="display: flex; align-items: center; border: 1px solid rgb(240, 236, 228); background-color:rgb(240, 236, 228);">
+                        <p id="noidung">
+                            Fresh Coffee được sinh ra từ niềm đam mê bất tận với hạt cà phê .Chúng tôi đi khắp thế giới
+                            để
+                            tìm kiếm cà phê tuyệt vời. Trong quá trình đó,chúng tôi phát hiện ra những hạt đậu đặc biệt
+                            và
+                            hiếm đến nỗi chúng tôi có thể chờ đợi để mang về. Qua một chặng đường dài, chúng tôi đã
+                            không
+                            ngừng mang đến những sản phẩm cà phê thơm ngon, sánh đượm trong không gian thoải mái và lịch
+                            sự
+                            với mức giá hợp lý. Những ly cà phê của chúng tôi không chỉ đơn thuần là thức uống quen
+                            thuộc mà
+                            còn mang trên mình một sứ mệnh văn hóa phản ánh một phần nếp sống hiện đại của người Việt
+                            Nam.
+
+                        </p>
+                        <img src="./assets/img/introduce/in1.jpg" class="img1" alt="">
+                    </div>
+
+                </div>
+
+                <div class="content-box">
+                    <h1 style="color: rgb(136, 90, 48) ; text-align: center;font-size: 35px; line-height: 100px;"> HÃY
+                        CÙNG NHÌN LẠI DẤU ẤN TRONG HÀNH TRÌNH CỦA CHÚNG TÔI </h1>
+                    <div class="content-title">
+                    </div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span> 2015</span>
+                                    <h3>
+                                        Ra mắt cửa hàng đầu tiên ở số 2A Hồ Tùng Mậu, quận Cầu Giấy. Sau 2 năm, Fresh
+                                        Coffee có hơn 20 cửa hàng ở Hà Nội</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span> 2017</span>
+                                    <h3> Fresh Coffee chính thức có mặt ở Thành phố Hồ Chí Minh, triển khai mô hình
+                                        nhượng quyền và mở rộng thêm 15 cửa hàng nữa</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span> 2018</span>
+                                    <h3>Chúng tôi đem trải nhiệm hương vị cà phê đến với Đà Nẵng, Biên Hòa, Vũng Tàu
+                                    </h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span> 2019</span>
+                                    <h3> Chinh phục hành trình "Từ nông trại đến ly cà phê",chia sẻ trọn vẹn câu chuyện
+                                        về đam mê cà phê với những người đồng điệu.</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span> 2020</span>
+                                    <h3> Fresh Coffee trở thành thương hiệu cà phê được nhiều người ưa chuộng nhất.
+                                        chính thức cán mốc 100 cửa hàng
+                                    </h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <h1 style="color: rgb(136, 90, 48); text-align: center; font-size: 35px; margin-bottom: 24px;"> GIÁ
+                        TRỊ LÀM NÊN FRESH
+                        COFFEE </h1>
+
+                    <div style="overflow : hidden;">
+                        <div
+                            style="width: 32%; padding: 10px; text-align: center; float: left;box-sizing: border-box;padding-left: 80px;">
+                            <img style="width:100%" src="http://file.hstatic.net/1000075078/file/img_3017.jpg" alt="" />
+                            <div style="background-color:rgb(240, 236, 228); padding: 20px;">
+                                <h3 style="color:rgb(136, 90, 48); font-size: 24px; margin-bottom: 12px;"> Chân thành
+                                </h3>
+                                <p style="line-height: 16px;"> Bắt đầu từ sứ mệnh “Deliver Happiness” - Trao gửi
+                                    hạnh phúc, chúng tôi tin rằng với tất cả sự chân thành và tôn trọng những giá trị
+                                    của nhân viên cũng như khách hàng, tất cả mọi người đến với Fresh Coffee đều nhận
+                                    được những niềm vui nho nhỏ, được tốt lên và làm người khác tốt lên từng ngày.</p>
+                            </div>
+                        </div>
+                        <div
+                            style="width: 32%; padding: 10px; text-align: center; float: left;box-sizing: border-box;padding-left: 80px;">
+                            <img style="width:100%" src="http://file.hstatic.net/1000075078/file/img_2314.jpg" alt="" />
+                            <div style="background-color:rgb(240, 236, 228) ;padding: 20px;">
+                                <h3 style="color:rgb(136, 90, 48); font-size: 24px; margin-bottom: 12px;"> Quan tâm</h3>
+                                <p style="line-height: 16px;">Mỗi sản phẩm, chiến dịch của Fresh Coffee luôn xoay
+                                    quanh con người. Chúng tôi lấy khách hàng, nhân viên và cộng đồng làm trọng tâm cho
+                                    mọi quyết định. Vì khi có bạn, Fresh Coffee được tiếp thêm sức mạnh để cùng lan toả
+                                    những giá trị tốt đẹp cho người trẻ Việt Nam.</p>
+                            </div>
+                        </div>
+                        <div
+                            style="width: 32%; padding: 10px; text-align: center; float: left;box-sizing: border-box;padding-left: 80px;">
+                            <img style="width:100%" src="http://file.hstatic.net/1000075078/file/img_2981.jpg" alt="" />
+                            <div style="background-color: rgb(240, 236, 228);padding: 20px;">
+                                <h3 style="color:rgb(29, 26, 24); font-size: 24px; margin-bottom: 12px;"> Sáng tạo</h3>
+                                <p style="line-height: 16px;">Chúng tôi muốn tạo ra dấu ấn khác biệt cho cà phê
+                                    Việt Nam bằng sự tử tế và cẩn trọng. 5 năm qua, cảm ơn bạn là nguồn động lực giúp
+                                    chúng tôi nỗ lực đổi mới và kiến tạo mỗi ngày, để mang lại những thành phẩm tuyệt
+                                    vời nhất, để trải nghiệm của bạn ngày một tốt hơn. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h1 style="color:rgb(136, 90, 48) ; text-align: center;font-size: 35px; margin: 36px 0;"> CỐT
+                            LÕI - TẦM NHÌN -
+                            SỨ MỆNH </h1>
+
+
+                        <div class="text-center">
+                            <img src="./assets/img/introduce/in6.jpg" width="100%" height="700px">
+                        </div>
+
+                    </div>
+
+            </body>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3 m-6 s-12">
+                    <h3 class="footer__title">Menu</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Đồ uống</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Đồ ăn</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 s-12">
+                    <h3 class="footer__title">Hỗ trợ khách hàng</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Giải đáp thắc mắc</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Chính sách mua hàng</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Chính sách đổi trả</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 s-12">
+                    <h3 class="footer__title">Liên hệ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <span class="footer__text">
+                                <i class="fas fa-map-marked-alt"></i> Trường Đại học Thương Mại, Mai Dịch, Cầu Giấy, Hà
+                                Nội
+                            </span>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <i class="fas fa-phone"></i> 098 765 4321
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <i class="fas fa-envelope"></i> team4_monthietkeweb@gmail.com
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <div class="social-group">
+                                <a href="#" class="social-item"><i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-item"><i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-item"><i class="fab fa-pinterest-p"></i>
+                                </a>
+                                <a href="#" class="social-item"><i class="fab fa-invision"></i>
+                                </a>
+                                <a href="#" class="social-item"><i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-3 m-6 s-12">
+                    <h3 class="footer__title">Đăng kí</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <span class="footer__text">Đăng ký để nhận được được thông tin ưu đãi mới nhất từ chúng
+                                tôi.</span>
+                        </li>
+                        <li class="footer__item">
+                            <div class="send-email">
+                                <input class="send-email__input" type="email" placeholder="Nhập Email...">
+                                <a href="#" class="send-email__link">
+                                    <i class="fas fa-paper-plane"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Form -->
+    <div class="ModalForm">
+        <div class="modal" id="my-Register">
+            <a href="#" class="overlay-close"></a>
+            <div class="authen-modal register">
+                <h3 class="authen-modal__title">Đăng Kí</h3>
+                <div class="form-group">
+                    <label for="account" class="form-label">Họ Tên</label>
+                    <input id="account" name="account" type="text" class="form-control">
+                    <span class="form-message">Không hợp lệ !</span>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="form-label">Tài khoản Email *</label>
+                    <input id="password" name="password" type="text" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="form-label">Mật khẩu *</label>
+                    <input id="password" name="password" type="text" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="form-label">Nhập lại mật khẩu *</label>
+                    <input id="password" name="password" type="text" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                <div class="authen__btns">
+                    <div class="btn btn--default">Đăng Kí</div>
+                </div>
+            </div>
+        </div>
+        <div class=" modal" id="my-Login">
+            <a href="#" class="overlay-close"></a>
+            <div class="authen-modal login">
+                <h3 class="authen-modal__title">Đăng Nhập</h3>
+                <div class="form-group">
+                    <label for="account" class="form-label">Địa chỉ email *</label>
+                    <input id="account" name="account" type="text" class="form-control">
+                    <span class="form-message">Tài khoản không chính xác !</span>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="form-label">Mật khẩu *</label>
+                    <input id="password" name="password" type="text" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+                <div class="authen__btns">
+                    <div class="btn btn--default">Đăng Nhập</div>
+                    <input type="checkbox" class="authen-checkbox">
+                    <label class="form-label">Ghi nhớ mật khẩu</label>
+                </div>
+                <a class="authen__link">Quên mật khẩu ?</a>
+            </div>
+        </div>
+        <div class="up-top" id="upTop" onclick="goToTop()">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+
+    </div>
+    <!-- Script common -->
+    <script src="./assets/js/commonscript.js"></script>
+</body>
+
+</html>
